@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body style="height: 100%;width: 100%;background-image: linear-gradient(to bottom right, green, yellow);">
+    <form style="display: grid;gap: 10px;justify-content: center;text-align: center;">
+        <div><label for="name">Name : </label><br/>
+        <input id="name" type="text" autocomplete="off" required/><br/></div>
+        <div><label for="email">Email : </label><br/>
+        <input id="email" type="email" required/><br/></div>
+        <div><label for="password">Password : </label><br/>
+        <input id="password" type="password" required/><br/></div>
+        <div><label for="confirm-password">Confirm Password : </label><br/>
+        <input id="confirm-password" type="password" required/><br/></div>
+        <div><label for="phone">Phone Number:</label><br/>
+        <input id="phone" type="number" required/><br/></div>
+        <div><label for="male" name="gender">Gender:</label><br/>
+        <input id="male" type="radio" name="gender">Male</input>
+        <label for="Female"></label><br/>
+        <input id="Female" type="radio" name="gender">Female</input><br/></div>
+        <div><label for="Interest">Interest:</label><br/>
+        <input type="checkbox" id="html" name="html">
+        <label for="html"> HTML</label><br>
+        <input type="checkbox" id="css" name="css">
+        <label for="css"> CSS</label><br>
+        <input type="checkbox" id="javascript" name="javascript">
+        <label for="javascript"> Javascript</label><br></div>
+        <div><lable for="company">Company:</lable>
+        <button disabled id="company">tringapps</button><br/></div>
+       <div> <label for="address">Address</label><br/>
+        <textarea></textarea><br/></div>
+        <div><label for="course">course</label>
+        <select>
+            <option>EEE</option>
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>CCE</option>
+        </select><br/></div>
+        <input type="range" min="0" max="100" step="1" title="range"/>
+        <progress max="100" value="100"></progress>
+        <div><input type="submit"/></div>
+    </form>
+    <hr/>
+    <table border="1" style="border-collapse: collapse;display: flex;justify-content: center;">
+        <tr>
+            <th>Title</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>Bharath</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>bharath.a@tringapps.com</td>
+        </tr>
+        <tr>
+            <td>Image</td>
+            <td><img src="https://www.shutterstock.com/shutterstock/photos/2210269047/display_1500/stock-vector-url-shortener-use-scissors-to-an-address-bar-or-link-to-make-it-shorter-short-and-custom-urls-2210269047.jpg" height="300px"></td>
+        </tr>
+        <tr>
+            <td>Video</td>
+            <td><iframe width="560" height="315" src="https://www.youtube.com/embed/AUMpaYtV19M?si=xdXKpAZbIKnU70fF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></td>
+        </tr>
+        <tr>
+            <td>youtube Link</td>
+            <td><a href="https://youtu.be/AUMpaYtV19M?si=Hyq9IQDBjp6RVngm">youtube link</a></td>
+        </tr>
+    </table>
+</body>
+</html>
+<!-- read only,autofocus -->

@@ -1,0 +1,128 @@
+*
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header,
+ul {
+    display: flex;
+    gap: 0px 15px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    /* background-color: red; */
+}
+
+.header {
+    /* border: 1px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+    float: right;
+    padding: 5px;
+}
+#menu{
+    display: none;
+    /* border: 1px solid black; */
+    width: 50px;
+    height: 100px;
+}
+i:hover +  #menu{
+ display: block;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+}
+
+input {
+    align-items: end;
+}
+
+.content {
+    /* background-color: rgb(90, 90, 90); */
+    /* height: 40px;
+    padding: 15px;
+    margin: 10px;
+    border-spacing: 10px; */
+
+}
+
+.text {
+
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.cell {
+    background-color: rgb(255, 255, 255);
+    max-width: 200px;
+    margin: 10px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+
+li:hover {
+    color: rgb(160, 160, 0);
+    box-shadow: 100px;
+    background-color: aqua;
+}
+button:hover{
+    background-color:rgb(255, 196, 0);
+}
+button:active{
+    background-color: orange;
+}
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+li {
+    
+    font-size: x-large;
+    padding: 10px;
+    border-radius: 15px;
+    transition: background-color .5s;
+}
+
+#search {
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.name {
+    padding: 2px 0px 5px 0px;
+}
+
+body {
+    background-color: rgb(163, 163, 163);
+    background-image: linear-gradient(to top left,orange, yellow,skyblue);
+}
+
+.header1 {
+    padding: 0px 0px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    height: 60px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 20px;
+    font-size: x-large;
+    margin-right: 20px;
+    transition: background-color .4s;
+}
+.date
+{
+    display: flex;
+    justify-content: space-between;
+}
