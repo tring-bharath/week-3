@@ -124,7 +124,7 @@ input
     gap: 10px;
     margin: 10px;
 }
-input[type="checkbox"] {
+input[type="checkbox"], input[type="radio"]{
     accent-color:grey !important;
     opacity: 0.1;
     background-color: rgb(63, 63, 63);
@@ -132,14 +132,14 @@ input[type="checkbox"] {
     border-radius: 4px;
     cursor: pointer;
 }
-input[type="checkbox"]:checked {
+input[type="checkbox"]:checked,input[type="radio"]:checked {
     accent-color: white;
     border-color: white;
     background-color: white;
 }
-input[type="checkbox"]::after{
+/* input[type="checkbox"]::after{
     border-color: red;
-}
+} */
 *
 {
     padding:0px;
@@ -173,6 +173,7 @@ label
 }
 .sign
 {
+    background: rgba(235, 168, 50, 1) !important;
     font-family: 'Open Sans', sans-serif !important;
     font-weight: 600 !important;
     font-size: 16px !important;
