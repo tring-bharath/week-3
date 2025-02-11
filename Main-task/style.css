@@ -24,7 +24,8 @@
 }
 select
 {
-    color: blue ;
+    color: #ffffff80 !important;
+    background-color: #292929 !important;
 }
 select option
 {
@@ -194,4 +195,14 @@ padding-right: 38px;
 padding-bottom: 16px;
 padding-left: 38px;
 
+}
+
+@media (max-width: 768px) { 
+    .right-panel {
+        display: none !important; 
+    }
+
+    .left-panel {
+        width: 100% !important; 
+    }
 }
